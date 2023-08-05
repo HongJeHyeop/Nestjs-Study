@@ -6,6 +6,7 @@ export class BoardStatusValidationPipe implements PipeTransform {
         BoardStatus.PRIVATE,
         BoardStatus.PUBLIC
     ]
+    
 
     transform(value: any) {
         value = value.toUpperCase();
